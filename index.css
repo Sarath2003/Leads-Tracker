@@ -13,6 +13,17 @@ input {
     margin-bottom: 4px;
 }
 
+.duplicate-url{
+    border: 1px solid red;
+}
+
+.error-msg{
+    display: none;
+    margin: 0;
+    margin-bottom: 5px;
+    color: red;
+}
+
 button {
     background: #5f9341;
     color: white;
@@ -37,7 +48,10 @@ li {
 }
 
 a {
+    font-weight: bold;
+    margin-right: 0.4em;
     color: #5f9341;
+    text-decoration: none;
 }
 
 
